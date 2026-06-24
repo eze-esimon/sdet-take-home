@@ -2,9 +2,9 @@
 
 ## How to submit
 
-1. **Create a Git repository** (GitHub) for your work.
-   - Start from the contents of this starter repo.
-   - Public is fine; if private, add the reviewers below as collaborators.
+1. **Create your own repo from this template** — click the green
+   **Use this template** button on the starter repo's GitHub page. Public or
+   private is your choice.
 2. **Commit your work** — including the four filled-in markdown files
    (`FINDINGS.md`, `DESIGN.md`, `SUBMISSION.md`, `AI_USAGE.md`).
    - We like to see a few meaningful commits rather than one giant squash — it
@@ -12,12 +12,12 @@
    - Do **not** commit `node_modules/` (a `.gitignore` is included).
 3. **Reply to the assignment email** with your repository URL.
 
-If the repo is private, add these collaborators:
+If your repo is private, add these reviewers as collaborators:
 `eze-esimon`, `eze-gerande`, `Ceolson95`
 
 ## Checklist before you send
 
-- [ ] `npm install && npm test` runs green on a clean clone
+- [ ] `npm install && npx cypress install && npm test` runs green on a clean clone
 - [ ] `FINDINGS.md` documents all three Part 1 issues
 - [ ] Part 2a helper is committed and used in at least one test
 - [ ] `DESIGN.md` answers the CI + alerting questions
